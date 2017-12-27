@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #0E172F;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 6px 4px;
+  outline: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  margin: 0;
+  width: 210px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+input[type="submit"] {
+  background: #0E172F;
+  border-color: #00A2FF;
+  color: #00A2FF;
+  width: 100px;
+}
+
+input[type="submit"]:hover {
+  border-color: #00A2AA;
+  color: #00A2AA;
+}
+
+.banner {
+  padding-top: 15%;
+  text-align: center;
+  width: 100%;
+}
+
+.banner img {
+  margin: 0 auto;
+  width: 330px;
+}
+
+.banner p.subtitle {
+  color: #00A2FF;
+  font: avenir;
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.maillist {
+  text-align: center;
+}
+
+.maillist input {
+  display: inline-block;
+}
